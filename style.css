@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+nav article{
+    display: flex;
+    flex-direction: row;
+   
+   
+    
+}
+nav article a{
+    padding-left: 30px;
+    padding-right: 30px; 
+    text-decoration: none;
+    color: white;
+}
+#link{
+    padding-top: 20px;
+}
+nav article a:hover{
+    background-color: white;
+    color: red;
+}
+#registro{
+    color: black;
+    padding-top: 20px;
+   
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+#right{
+    padding-left: 850px;
+}
+#registro:hover{
+    background-color: black;
+    color: red;
+}
