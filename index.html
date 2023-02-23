@@ -26,5 +26,74 @@
         </nav>
  
     </header>
+
+
+
+<main>
+        
+    <article>
+        <h1>Formulario Reportes:</h1>
+        <br><br>
+        <ul>
+            <li>
+                <label for="jugadorA">Introduzca su nombre de Usuario:</label>
+                <input name="jugadorA" placeholder="Usuario" type="text">
+                <br> <br><br>
+            </li>
+            <li>
+                <label for="jugadorB">Nombre de usuario del jugador a reportar:</label>
+                <input name="jugadorB" placeholder="Usuario"  type="text">
+                <br><br><br>
+            </li>
+            <li>
+                <label for="motivo">Seleccione Motivo de Reporte: </label>
+                <select name="motivo" id="motivo">
+                    <option value="0">Seleccione Motivo de Reporte</option>
+                    <option value="1">Comportamiento ofensivo por canal de voz</option>
+                    <option value="2">Comportamiento ofensivo por chat</option>
+                    <option value="3">Comportamiento racista</option>
+                    <option value="4">Comportamiento sexista</option>
+                    <option value="5">Inactividad o abandono</option>
+                    <option value="6">Intento de ayudar al equipo contrario</option>
+                </select>
+                <br><br><br>
+            </li>
+            <li>
+                <label for="juego">Seleccione El Juego en el que Ocurrió: </label>
+                <select name="juego" id="juego">
+                    <option value="0">Seleccione El Juego en el que Ocurrió</option>
+                    <option value="1">League of Legends</option>
+                    <option value="2">Valorant</option>
+                    <option value="3">Teamfight Tactics</option>
+                    <option value="4">Legends of Runeterra</option>
+                    <option value="5">League of Legends: Wild Rift</option>
+                
+                </select>
+                <br><br><br>
+            </li>
+            <li>
+                <p>Especifique más detalles:</p>
+            </li>
+    
+        </ul>
+            <textarea name="detalles" id="detalles" cols="30" rows="10" placeholder="detalles..."></textarea>
+            <br><br>
+   
+    <input type="submit" value="Enviar Formulario" id="enviar"/>
+</article>
+
+
+<article>
+    <img src="juegos.jpg" alt="Juegos Riot" id="juegosRiot" width="1000px" height="600px">
+</article>       
+
+        
+        
+        
+        
+
+        
+
+    </main>
 </body>
 </html>
