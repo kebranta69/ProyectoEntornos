@@ -4,13 +4,14 @@
 nav article{
     display: flex;
     flex-direction: row;
+    
    
    
     
 }
 nav article a{
-    padding-left: 30px;
-    padding-right: 30px; 
+    padding-left: 20px;
+    padding-right: 20px; 
     text-decoration: none;
     color: white;
 }
@@ -33,7 +34,7 @@ nav {
     background-color: red;
 }
 #right{
-    padding-left: 850px;
+    padding-left: 983px;
 }
 #registro:hover{
     background-color: black;
@@ -85,10 +86,40 @@ main{
     display: flex;
     flex-direction: row;
     text-decoration:underline rgb(68, 3, 3) 3px;
+    margin: 40px;
 }
 #juegosRiot{
     margin-top: 55px;
     margin-left: 160px;
     border: 4px solid red;
     
+}
+footer{
+    background-color: rgb(170, 70, 70);
+    padding: 40px; 
+    
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: -40px;
+    
+}
+footer ul li{
+    font-size: small;
+    margin-left: 70px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    color: grey;
+    font-weight: bolder;
+}
+#redes{
+    margin-top: -20px;
 }
